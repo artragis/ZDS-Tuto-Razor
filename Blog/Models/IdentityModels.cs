@@ -24,7 +24,7 @@ namespace Blog.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-
+        public DbSet<Article> Articles { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();

@@ -11,6 +11,7 @@ namespace Blog.Models
     /// </summary>
     public class Article
     {
+        public int ID { get; set; }
         /// <summary>
         /// Le pseudo de l'auteur
         /// </summary>
